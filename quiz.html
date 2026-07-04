@@ -835,7 +835,7 @@ Rules:
     document.getElementById('qn-lb-back').addEventListener('click', ()=>{ state.screen='result'; render(); });
   }
 
-  // ---------- Boot ----------
+  // //---------- Boot ----------
   (async function boot(){
     await loadUser();
     state.screen = state.username ? 'categories' : 'login';
